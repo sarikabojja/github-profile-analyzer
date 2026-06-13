@@ -1,0 +1,30 @@
+
+{
+  "info": {
+    "name": "GitHub Profile Analyzer API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Analyze Profile",
+      "request": {
+        "method": "POST",
+        "url": "http://localhost:5000/api/profile/octocat"
+      }
+    },
+    {
+      "name": "Get All Profiles",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5000/api/profiles"
+      }
+    },
+    {
+      "name": "Get Single Profile",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5000/api/profile-data/octocat"
+      }
+    }
+  ]
+}
